@@ -297,6 +297,49 @@ $user_data = $user_result->fetch_assoc();
         opacity: 1;
         transform: translateY(0);
     }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Menjaga agar teks sejajar di tengah */
+}
+
+th {
+    background-color: #004080; /* Warna header */
+    color: white;
+}
+
+.tipe-suite {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.tipe-double {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.status-ter {
+    color: green; 
+}
+
+.status-dipesan {
+    color: red; 
+}
+
+img {
+    width: 50px; /* Mengatur ukuran gambar */
+    height: auto;
+}
 </style>
 
 <!-- Header Dashboard -->
